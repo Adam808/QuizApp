@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+
+    <!-- Quiz questions -->
+    <string name="question1">1) Who directed American Psycho?</string>
+    <string name="question2">2) What is the name of Luke Skywalker\'s home planet?</string>
+    <string name="question3">3) Who played Betty/Diane Selwyn in Mulholland Drive?</string>
+    <string name="question4">4) What is the often-used nickname of Jeff Bridges\' character in The Big Lebowski?</string>
+    <string name="question5">5) What fictional island is home to the original Jurassic Park?</string>
+    <string name="question6">6) Which of the following characters are members of the Watchmen?</string>
+    <string name="question7">7) Who played Nikola Tesla in The Prestige?</string>
+    <string name="question8">8) What is the name of the hacker who initially contacts Neo in The Matrix?</string>
+
+    <!-- Question 1 answers -->
+    <string name="q1_1">Mary Harron</string>
+    <string name="q1_2">Quentin Tarantino</string>
+    <string name="q1_3">Christopher Nolan</string>
+    <string name="q1_4">Kathryn Bigelow</string>
+
+    <!-- Question 3 answers -->
+    <string name="q3_1">Nicole Kidman</string>
+    <string name="q3_2">Laura Dern</string>
+    <string name="q3_3">Naomi Watts</string>
+    <string name="q3_4">Marisa Tomei</string>
+
+    <!-- Question 5 answers -->
+    <string name="q5_1">Isla Nublar</string>
+    <string name="q5_2">Isla Mujeres</string>
+    <string name="q5_3">Isla Coiba</string>
+    <string name="q5_4">Isla Fisher</string>
+
+    <!-- Question 6 answers -->
+    <string name="q6_1">Rorschach</string>
+    <string name="q6_2">Havok</string>
+    <string name="q6_3">Dr. Manhattan</string>
+    <string name="q6_4">Nite Owl</string>
+    <string name="q6_5">Hawkeye</string>
+
+    <!-- Question 7 answers -->
+    <string name="q7_1">Daniel Day-Lewis</string>
+    <string name="q7_2">Willem Dafoe</string>
+    <string name="q7_3">Gary Oldman</string>
+    <string name="q7_4">David Bowie</string>
+
+    <!-- Get score button and hint text -->
+    <string name="get_score">Get Score</string>
+    <string name="hint">Enter answer</string>
+
+    <!-- Toasts -->
+    <string name="try_again"> /8. Better luck next time</string>
+    <string name="good"> /8. Good job!</string>
+    <string name="perfect"> /8. Awesome! Perfect score!</string>
+</resources>
