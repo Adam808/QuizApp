@@ -1,20 +1,12 @@
 package com.example.android.quizapp;
 
-import android.provider.Settings;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.Editable;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
-import android.widget.RadioGroup;
 import android.widget.Toast;
-
-import static com.example.android.quizapp.R.string.question2;
-import static com.example.android.quizapp.R.string.question4;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         RadioButton answer5 = (RadioButton) findViewById(R.id.answer_5);
         RadioButton answer7 = (RadioButton) findViewById(R.id.answer_7);
 
-        //YOU NEED TO FIX THIS
+        //Create text answer variables
         EditText question2 = (EditText) findViewById(R.id.answer_2);
         String answer2 = question2.getText().toString();
         EditText question4 = (EditText) findViewById(R.id.answer_4);

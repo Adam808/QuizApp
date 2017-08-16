@@ -42,9 +42,8 @@
     <string name="q7_3">Gary Oldman</string>
     <string name="q7_4">David Bowie</string>
 
-    <!-- Get score button and hint text -->
+    <!-- Get score button text -->
     <string name="get_score">Get Score</string>
-    <string name="hint">Enter answer</string>
 
     <!-- Toasts -->
     <string name="try_again"> /8. Better luck next time</string>

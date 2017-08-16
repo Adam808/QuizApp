@@ -10,5 +10,16 @@
         <item name="android:textSize">16sp</item>
     </style>
 
+    <style name="TextViewStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="EditTextStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:hint">Enter Answer</item>
+        <item name="android:inputType">textCapWords</item>
+    </style>
+
 
 </resources>

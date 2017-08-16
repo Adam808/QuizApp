@@ -14,205 +14,162 @@
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
             android:text="@string/question1" />
 
         <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            style="@style/TextViewStyle">
 
             <RadioButton
                 android:id="@+id/answer_1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextViewStyle"
                 android:text="@string/q1_1" />
 
             <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextViewStyle"
                 android:text="@string/q1_2" />
 
             <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextViewStyle"
                 android:text="@string/q1_3" />
 
             <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextViewStyle"
                 android:text="@string/q1_4" />
         </RadioGroup>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
             android:text="@string/question2" />
 
         <EditText
             android:id="@+id/answer_2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="@string/hint"
-            android:inputType="textCapWords" />
+            style="@style/EditTextStyle" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
             android:text="@string/question3" />
 
         <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            style="@style/TextViewStyle">
 
             <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextViewStyle"
                 android:text="@string/q3_1" />
 
             <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextViewStyle"
                 android:text="@string/q3_2" />
 
             <RadioButton
                 android:id="@+id/answer_3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextViewStyle"
                 android:text="@string/q3_3" />
 
             <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextViewStyle"
                 android:text="@string/q3_4" />
         </RadioGroup>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
             android:text="@string/question4" />
 
         <EditText
             android:id="@+id/answer_4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="@string/hint"
-            android:inputType="textCapWords" />
+            style="@style/EditTextStyle" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
             android:text="@string/question5" />
 
         <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            style="@style/TextViewStyle">
 
             <RadioButton
                 android:id="@+id/answer_5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextViewStyle"
                 android:text="@string/q5_1" />
 
             <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextViewStyle"
                 android:text="@string/q5_2" />
 
             <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextViewStyle"
                 android:text="@string/q5_3" />
 
             <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextViewStyle"
                 android:text="@string/q5_4" />
         </RadioGroup>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
             android:text="@string/question6" />
 
         <CheckBox
             android:id="@+id/a6_rorschach"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
             android:text="@string/q6_1" />
 
         <CheckBox
             android:id="@+id/a6_havok"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
             android:text="@string/q6_2" />
 
         <CheckBox
             android:id="@+id/a6_manhattan"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
             android:text="@string/q6_3" />
 
         <CheckBox
             android:id="@+id/a6_nite_owl"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
             android:text="@string/q6_4" />
 
         <CheckBox
             android:id="@+id/a6_hawkeye"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
             android:text="@string/q6_5" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
             android:text="@string/question7" />
 
         <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            style="@style/TextViewStyle">
 
             <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextViewStyle"
                 android:text="@string/q7_1" />
 
             <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextViewStyle"
                 android:text="@string/q7_2" />
 
             <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextViewStyle"
                 android:text="@string/q7_3" />
 
             <RadioButton
                 android:id="@+id/answer_7"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TextViewStyle"
                 android:text="@string/q7_4" />
         </RadioGroup>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
             android:text="@string/question8" />
 
         <EditText
             android:id="@+id/answer_8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="@string/hint"
-            android:inputType="textCapWords" />
+            style="@style/EditTextStyle" />
 
         <Button
             android:onClick="checkAnswers"
             android:id="@+id/get_score"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
             android:layout_gravity="center"
             android:text="@string/get_score" />
 
